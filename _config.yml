@@ -1,0 +1,56 @@
+# Site settings
+title: ryanbranch.net
+author: "Ryan Branch"
+description: >- # this means to ignore newlines until "baseurl:"
+  Ryan Branch is an engineer and scientific researcher from Michigan.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ryanbranch.net" # the base hostname & protocol for your site, e.g. http://example.com
+# Contact-related
+email: contact.ryanbran.ch@gmail.com
+github_username:  ryanbranch
+github_gist: true
+linkedin_username: ryanbranch
+twitter_username: rjbranch
+discord_username: "RyanBranch"
+discord_tag: "4020"
+orcid_id: "0000-0001-6456-3468"
+google_scholar_id: "tkVpzE4AAAAJ"
+# Contact Form Configuration
+formspree_endpoint_contact: "xbjpgbvy"
+
+# Special Characters
+right_arrow: "&#9656;"
+
+# Google-related
+google_analytics: false
+#google_analytics_tracking_id: "PLACEHOLDER"
+google_fonts: false
+# Display Toggles
+footer_email: false
+
+# Build settings
+markdown: kramdown
+# Commented out the line below in order to use jekyanbranch as the base theme
+#theme: minima
+remote_theme: ryanbranch/jekyanbranch@main
+plugins:
+  - jekyll-feed
+  # Added to support the use of http://github.com/ryanbranch/jekyanbranch
+  # as a theme DURING LOCAL DEVELOPMENT. This line is not needed in order
+  # for a GitHub Pages repo to use another GitHub repo as a Jekyll theme.
+  - jekyll-remote-theme
+  
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+exclude:
+  - personal/
+  - sandbox/
