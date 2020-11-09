@@ -30,7 +30,7 @@ right_arrow: "&#9656;"
 
 # Google-related
 google_analytics: false
-#google_analytics_tracking_id: "PLACEHOLDER"
+#google_analytics_tracking_id: "UA-158059409-7"
 google_fonts: false
 # Display Toggles
 footer_email: false
